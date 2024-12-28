@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/talk"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#483D8B",
+    "navigationBarTitleText": "即时通讯模块",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "talk",
+  "version": "0.0.1",
+  "description": "releaseeasy",
+  "scripts": {
+    "dev": "node server/server.js"
+  },
+  "author": "皮皮熙",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.1"
+  }
+}
