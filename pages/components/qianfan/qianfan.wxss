@@ -1,0 +1,73 @@
+/* 聊天记录容器 */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #E6E6FA;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* 每条消息 */
+.message {
+  display: flex;
+  align-items: flex-start; /* 头像和消息框顶部对齐 */
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+
+/* 用户消息框（白底黑字） */
+.message.user .message-content {
+  background-color: #ffffff; /* 白底 */
+  color: black; /* 黑字 */
+}
+
+/* 对方消息框（紫色底白字） */
+.message.bot .message-content {
+  background-color: #7260e6; /* 紫色底 */
+  color: white; /* 白字 */
+}
+
+/* 头像 */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px; /* 头像和消息框之间的间距 */
+}
+
+/* 消息框 */
+.message-content {
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 60%;
+}
+
+/* 输入框和按钮区域 */
+.input-area {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-area .input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.input-area .send-btn {
+  
+  padding: 0px;
+  background-color:#483D8B;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}

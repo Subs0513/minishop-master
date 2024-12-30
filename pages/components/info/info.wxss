@@ -1,0 +1,48 @@
+/* info.wxss */
+.container {
+  padding: 20rpx;
+  background-color: #f8f8f8;
+}
+
+.section {
+  margin-bottom: 30rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
+  padding: 20rpx;
+}
+
+.section-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  color: #333333;
+}
+
+.info-item {
+  font-size: 28rpx;
+  color: #666666;
+  margin-bottom: 10rpx;
+}
+
+.tech-item {
+  font-size: 28rpx;
+  color: #444444;
+  margin-left: 20rpx;
+}
+
+button {
+  margin-top: 20rpx;
+  background-color: #007ACC;
+  color: #ffffff;
+  padding: 10rpx 20rpx;
+  border: none;
+  border-radius: 5rpx;
+}
+.purple-button {
+  background-color: #483D8B;
+  color: rgb(255, 255, 255); /* 确保文字颜色与背景有良好的对比 */
+  border: none; /* 可选：移除按钮边框 */
+  padding: 10px 20px; /* 可选：增加按钮的内边距 */
+  border-radius: 5px; /* 可选：增加圆角 */
+}

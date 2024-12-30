@@ -1,0 +1,18 @@
+<view class="chat-container" style="height: 1339rpx; display: flex; box-sizing: border-box">
+  <!-- 聊天记录 -->
+  <block wx:for="{{messages}}" wx:key="index">
+    <view class="message {{item.role}}">
+      <image class="avatar" src="{{item.avatar}}" />
+      <view class="message-content">
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+  </block>
+
+  <!-- 输入框和发送按钮 -->
+  <view class="input-area" style="position: fixed; left: 0rpx; top: 1335rpx; height: 122rpx; display: flex; box-sizing: border-box">
+    <input class="input" type="text" bindinput="onInput" value="{{inputContent}}" placeholder="输入消息..." />
+    <!-- <button class="send-btn" bindtap="sendMessage" style="width: 124rpx; display: block; box-sizing: border-box; left: 0rpx; top: 1rpx">发送</button> -->
+    <button class="send-btn" bindtap="sendMessage" style="width: 124rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">发送</button>
+  </view>
+</view>

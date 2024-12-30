@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="section">
+    <text class="section-title">开发者信息</text>
+    <view class="info-item">姓名:{{developer.name}}</view>
+    <view class="info-item">邮箱:{{developer.email}}</view>
+    <view class="info-item">GitHub: <navigator url="{{developer.github}}">{{developer.github}}</navigator></view>
+    <!-- <button bindtap="copyEmail">复制邮箱地址</button> -->
+    <button class="purple-button" bindtap="copyEmail">复制邮箱地址</button>
+  </view>
+
+  <view class="section">
+    <text class="section-title">项目简介</text>
+    <view class="info-item">项目名称: {{project.title}}</view>
+    <view class="info-item">团队成员: {{project.team}}</view>
+    <view class="info-item">项目描述: {{project.description}}</view>
+    <view class="info-item">当前版本: {{project.version}}</view>
+    <view class="info-item">所用技术:</view>
+    <view>
+      <block wx:for="{{project.technologies}}" wx:key="*this">
+        <text class="tech-item">- {{item}}</text>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,11 +1,16 @@
 {
   "pages": [
-    "pages/talk"
+    "pages/index/index",
+    "pages/components/info/info",
+    "pages/components/qianfan/qianfan",
+    "pages/components/talk/talk",
+    "pages/components/variety/variety"
   ],
   "window": {
+    "backgroundColor": "#E6E6FA",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#483D8B",
-    "navigationBarTitleText": "即时通讯模块",
+    "navigationBarTitleText": "主界面",
     "navigationBarTextStyle": "white"
   }
 }

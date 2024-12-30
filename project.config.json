@@ -10,7 +10,12 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "coverView": false,
+    "enhance": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true
   },
   "ignore": [
     {
@@ -19,17 +24,17 @@
     }
   ],
   "compileType": "miniprogram",
-  "libVersion": "3.7.3",
-  "appid": "wxf1271225854096b5",
-  "projectname": "talk-IM",
   "condition": {},
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "libVersion": "3.7.3",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxf1271225854096b5",
+  "projectname": "talk-IM"
 }
