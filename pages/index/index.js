@@ -14,16 +14,16 @@ Page({
     duration: 1000,
     navItems:[
       {
-        name:'查询',
+        name:'购物车',
         url:'variety'
       },
       {
-        name:'通信',
+        name:'直连商家',
         url:'talk',
         isSplot:true
       },
       {
-        name:'信息',
+        name:'作者信息',
         url:'info',
       },
       {
@@ -31,12 +31,12 @@ Page({
         url:'qianfan'
       },
       {
-        name:'预留3',
+        name:'预留空位',
         url:'',
         isSplot:true
       },
       {
-        name:'预留4',
+        name:'预留空位',
         url:''
       }
     ]

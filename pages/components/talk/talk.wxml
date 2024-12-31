@@ -1,5 +1,5 @@
 <!--聊天内容-->
-<scroll-view scroll-y="true" class='padding20' style="height:1000rpx;width:auto; padding-bottom:{{isShowModelUp==true?'448':'100'}}rpx;"> 
+<scroll-view scroll-y="true" class='padding20' style="height: 1347rpx; width: auto; padding-bottom: {{isShowModelUp==true?'448':'100'}}rpx; display: block; box-sizing: border-box"> 
   <block wx:for="{{talkList}}" wx:key="key">
     <view class='weui-flex mb20' wx:if="{{item.time}}">
       <text class='talk_time'>{{item.time}}</text>
