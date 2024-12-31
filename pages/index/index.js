@@ -31,13 +31,13 @@ Page({
         url:'qianfan'
       },
       {
-        name:'预留空位',
-        url:'',
+        name:'我的室友',
+        url:'demo1',
         isSplot:true
       },
       {
-        name:'预留空位',
-        url:''
+        name:'萨勒芬妮',
+        url:'demo2'
       }
     ]
   },

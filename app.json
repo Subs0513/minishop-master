@@ -4,13 +4,15 @@
     "pages/components/info/info",
     "pages/components/qianfan/qianfan",
     "pages/components/talk/talk",
-    "pages/components/variety/variety"
+    "pages/components/variety/variety",
+    "pages/components/demo1/demo1",
+    "pages/components/demo2/demo2"
   ],
   "window": {
     "backgroundColor": "#E6E6FA",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#483D8B",
-    "navigationBarTitleText": "主界面",
+    "navigationBarTitleText": "皮皮的智能展示系统",
     "navigationBarTextStyle": "white"
   }
 }

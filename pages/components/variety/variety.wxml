@@ -14,7 +14,7 @@
 					<text class="title">{{item.name}}</text>
 					<p>￥{{item.price}}</p>
 				</view>
-				<view class="add-btn"><icon type="{{item.status ? 'success' : 'circle'}}" color="orange" size="30"></icon></view>
+				<view class="add-btn"><icon type="{{item.status ? 'success' : 'circle'}}" color="purple" size="30"></icon></view>
 			</view>
 		</block>
 
