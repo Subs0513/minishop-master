@@ -185,9 +185,9 @@ App({
     unionId: null,  // 登录标识
     isLoginErp: false, // 是否登录
     wxUserInfo: [],   // 微信用户信息
-    socketHost: "ws://localhost:8000", // WebSocket地址
+    // socketHost: "ws://localhost:8000", // WebSocket地址
     socketConnected: false, // 是否已连接WebSocket
-    wsUrl: 'ws://localhost:8000', // WebSocket地址
-    apiHost: 'ws://localhost:8000/' // API服务器地址
+    wsUrl: 'wss://websocket-server-133545-9-1333758115.sh.run.tcloudbase.com', // WebSocket地址
+    // apiHost: 'ws://localhost:8000/' // API服务器地址
   }
 });
