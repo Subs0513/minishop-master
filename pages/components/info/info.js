@@ -8,9 +8,9 @@ Page({
     },
     project: {
       title: "鬼点子系统",
-      team:"郭朝阳、张正澍、杜璟钰",
+      team:"扬州大学",
       description: "一个简单的商品推荐系统",
-      version: "0.0.1",
+      version: "1.0.1",
       technologies: ["微信小程序", "JavaScript", "Node.js"]
     }
   },

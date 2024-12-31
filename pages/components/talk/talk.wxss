@@ -2,6 +2,15 @@
 page{
   background: #E6E6FA;
 }
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
 /*聊天窗口*/
 .user_img.img_talk{ width: 65rpx;height: 65rpx; margin-top:0; border:0;}
 .talk_list_box{ max-width: 70%; background: #fff; padding: 20rpx; border-radius: 10rpx; margin-right:20rpx;}

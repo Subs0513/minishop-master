@@ -322,7 +322,7 @@ Page({
     options.time = util.formatDateTime(util.getNowFormatDate());
     console.log(options); 
     if(enu == 0){
-      options.userImage = '../images/admin.png';
+      options.userImage = '/images/admin.png';
       options.isAdmin = false;  
     }else if(enu==1){
       options.userImage = app.globalData.wxUserInfo.avatarUrl;

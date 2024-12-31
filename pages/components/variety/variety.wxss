@@ -1,3 +1,22 @@
+.container {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.flex-wrap{
+	display: flex;
+}
+.flex-item{
+	flex: 1;
+}
+.flex-wrap.flex-direction-col{
+	flex-direction: column;
+}
+.flex-wrap.flex-direction-row{
+	flex-direction: row;
+}
+
 .aside{
 	width:4rem;
 	border-right: 1px solid #ddd;

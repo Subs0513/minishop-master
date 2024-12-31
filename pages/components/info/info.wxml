@@ -11,7 +11,7 @@
   <view class="section">
     <text class="section-title">项目简介</text>
     <view class="info-item">项目名称: {{project.title}}</view>
-    <view class="info-item">团队成员: {{project.team}}</view>
+    <view class="info-item">所属学校: {{project.team}}</view>
     <view class="info-item">项目描述: {{project.description}}</view>
     <view class="info-item">当前版本: {{project.version}}</view>
     <view class="info-item">所用技术:</view>

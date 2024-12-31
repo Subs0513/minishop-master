@@ -28,19 +28,19 @@ Page({
 			[
 				{
 					name:"郭朝阳",
-					price:38,
+					price:999,
 					num:1,
 					id:1
 				},
 				{
 					name:"杜璟钰",
-					price:58,
+					price:88,
 					num:1,
 					id:29
 				},
 				{
 					name:"张正澍",
-					price:88,
+					price:666,
 					num:1,
 					id:2
 				}
