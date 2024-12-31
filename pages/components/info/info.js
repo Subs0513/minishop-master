@@ -7,7 +7,7 @@ Page({
       github: "https://github.com/Subs0513",
     },
     project: {
-      title: "鬼点子系统",
+      title: "皮皮的智能展示系统",
       team:"扬州大学",
       description: "一个简单的商品推荐系统",
       version: "1.0.1",
