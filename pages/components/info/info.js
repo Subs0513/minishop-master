@@ -10,7 +10,7 @@ Page({
       title: "皮皮的智能展示系统",
       team:"扬州大学",
       description: "一个简单的商品推荐系统",
-      version: "1.0.2",
+      version: "1.0.3",
       technologies: ["微信小程序", "JavaScript", "Node.js"]
     }
   },
