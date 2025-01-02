@@ -57,35 +57,180 @@ Page({
 					price:58,
 					num:1,
 					id:4
-				}
+        },
+        {
+					name:"打火机",
+					price:2,
+					num:1,
+					id:3
+				},
+				{
+					name:"钥匙扣",
+					price:5,
+					num:1,
+					id:4
+        },
+        {
+					name:"毛巾",
+					price:16,
+					num:1,
+					id:3
+				},
+				{
+					name:"棉签",
+					price:17,
+					num:1,
+					id:4
+        },
+        {
+					name:"垃圾袋",
+					price:11,
+					num:1,
+					id:3
+				},
+				{
+					name:"插线板",
+					price:58,
+					num:1,
+					id:4
+        },
+        {
+					name:"数据线",
+					price:37,
+					num:1,
+					id:3
+				},
+				{
+					name:"胶带",
+					price:6,
+					num:1,
+					id:4
+        },
+        {
+					name:"暖宝宝",
+					price:30,
+					num:1,
+					id:3
+				},
+				{
+					name:"口罩",
+					price:3,
+					num:1,
+					id:4
+        },
+        {
+					name:"针线盒",
+					price:14,
+					num:1,
+					id:3
+				},
+				{
+					name:"雨伞",
+					price:40,
+					num:1,
+					id:4
+        }
 			],
 			[
 				{
 					name:"薯片",
-					price:18,
+					price:8,
 					num:1,
 					id:5
 				},
 				{
 					name:"饼干",
-					price:8,
+					price:6,
 					num:1,
 					id:6
-				}
+        },
+        {
+					name:"薯条",
+					price:12,
+					num:1,
+					id:3
+				},
+				{
+					name:"花生",
+					price:9,
+					num:1,
+					id:4
+        },
+        {
+					name:"巧克力",
+					price:20,
+					num:1,
+					id:3
+				},
+				{
+					name:"奶片",
+					price:2,
+					num:1,
+					id:4
+        },
+        {
+					name:"曲奇",
+					price:16,
+					num:1,
+					id:3
+				},
+				{
+					name:"辣条",
+					price:1,
+					num:1,
+					id:4
+        },
+        {
+					name:"火腿肠",
+					price:6,
+					num:1,
+					id:3
+				},
+				{
+					name:"果冻",
+					price:6,
+					num:1,
+					id:4
+        }        
 			],
 			[
 				{
 					name:"可乐",
-					price:18,
+					price:3,
 					num:1,
 					id:5
 				},
 				{
 					name:"雪碧",
-					price:8,
+					price:3,
 					num:1,
 					id:6
-				}
+        },
+        {
+					name:"橘子汽水",
+					price:3,
+					num:1,
+					id:3
+				},
+				{
+					name:"牛奶",
+					price:5,
+					num:1,
+					id:4
+        },
+        {
+					name:"椰汁",
+					price:8,
+					num:1,
+					id:3
+				},
+				{
+					name:"冰红茶",
+					price:4,
+					num:1,
+					id:4
+        },
+        
       ]
 		],
 		variety:[]

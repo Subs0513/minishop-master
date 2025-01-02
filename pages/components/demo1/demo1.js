@@ -3,7 +3,9 @@ Page({
     photos: [
       { id: 1, url: 'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/0001.jpg' },
       { id: 2, url: 'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/0002.jpg' },
-      { id: 3, url: 'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/0003.jpg' }
+      { id: 3, url: 'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/0003.jpg' },
+      { id: 4, url: 'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/0004.jpg' }
+      
     ],
     currentIndex: 0
   },

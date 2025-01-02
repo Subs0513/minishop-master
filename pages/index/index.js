@@ -14,7 +14,7 @@ Page({
     duration: 1000,
     navItems:[
       {
-        name:'购物车',
+        name:'可选商品',
         url:'variety'
       },
       {
@@ -23,12 +23,12 @@ Page({
         isSplot:true
       },
       {
-        name:'作者信息',
-        url:'info',
-      },
-      {
         name:'智能助理',
         url:'qianfan'
+      },
+      {
+        name:'萨勒芬妮',
+        url:'demo2'
       },
       {
         name:'我的室友',
@@ -36,8 +36,8 @@ Page({
         isSplot:true
       },
       {
-        name:'萨勒芬妮',
-        url:'demo2'
+        name:'作者信息',
+        url:'info',
       }
     ]
   },
