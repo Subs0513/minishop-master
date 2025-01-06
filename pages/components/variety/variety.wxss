@@ -39,20 +39,20 @@
 	background-color: #fff;
 }
 
-.dish{
+.snack{
 	margin-left: 1rem;
 	padding: 1rem;
 	border-bottom: 1px solid #ddd;
 }
-.dish .title{
+.snack .title{
 	display: block;
 	font-size: 1rem;
 }
-.dish p{
+.snack p{
 	color: rgb(132, 0, 255);
 	font-size: .75rem;
 }
-.dish .add-btn{
+.snack .add-btn{
 	width: 3rem;
 	text-align: right;
 }
@@ -65,4 +65,51 @@
 	bottom: 0;
 	padding: 1rem;
 	background: #ddd;
+}
+
+/* 样式调整 */
+.cart-toggle {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f8f8f8;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.cart-popup {
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+	max-height: 300px;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+}
+
+.cart-scroll {
+	max-height: 250px;
+	overflow-y: auto;
+}
+
+.cart-item {
+	padding: 5px 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.checkout-btn {
+	width: 100%;
+	padding: 10px;
+	background-color: #673ab7;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
 }

@@ -27,8 +27,8 @@ Page({
         url:'qianfan'
       },
       {
-        name:'萨勒芬妮',
-        url:'demo2'
+        name:'购物结算',
+        url:'cart'
       },
       {
         name:'我的室友',

@@ -4,12 +4,19 @@ App({
   onLaunch: function () {
     var that = this;
     console.log("appjs-onLaunch");
-
+  
+    // 初始化云开发环境
+    wx.cloud.init({
+      env: 'test1-3gsvd4o39769272a', // 替换为你的云开发环境ID
+      traceUser: true, // 是否追踪用户数据，默认 true
+    });
+  
     // 从本地缓存中获取数据
     var logs = wx.getStorageSync('logs') || [];
     logs.unshift(Date.now());
     wx.setStorageSync('logs', logs);
   },
+  
 
   // 页面每次显示时执行
   onShow: function () {

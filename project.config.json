@@ -15,7 +15,12 @@
     "enhance": false,
     "showShadowRootInWxmlPanel": false,
     "packNpmRelationList": [],
-    "ignoreUploadUnusedFiles": true
+    "ignoreUploadUnusedFiles": true,
+    "checkInvalidKey": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true
   },
   "ignore": [
     {
@@ -24,16 +29,18 @@
     }
   ],
   "compileType": "miniprogram",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "cloud": true,
+  "appid": "wxf1271225854096b5",
+  "projectname": "my-mini-program",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "libVersion": "3.7.3",
   "packOptions": {
     "ignore": [],
     "include": []
-  },
-  "appid": "wxf1271225854096b5"
+  }
 }

@@ -1,0 +1,23 @@
+<view class="cart-container">
+  <!-- 商品列表 -->
+  <block wx:for="{{cartData}}" wx:key="id">
+    <view class="cart-item">
+      <text class="item-name">{{item.name}}</text>
+      <text class="item-price">￥{{item.price}}</text>
+      
+      <!-- 商品操作 -->
+      <view class="item-actions">
+        <button data-id="{{item.id}}" bindtap="decreaseCount">-</button>
+        <text class="item-count">{{item.count}}</text>
+        <button data-id="{{item.id}}" bindtap="increaseCount">+</button>
+        <button data-id="{{item.id}}" bindtap="removeItem" class="remove-btn">删除</button>
+      </view>
+    </view>
+  </block>
+
+  <!-- 购物车底部浮窗 -->
+  <view class="cart-footer">
+    <text class="total-price">总价: ￥{{totalPrice}}</text>
+    <button class="checkout-btn" bindtap="checkout" style="position: relative; left: -39rpx; top: 2rpx; height: 74rpx; display: block; box-sizing: border-box; width: 127rpx">结算</button>
+  </view>
+</view>

@@ -6,7 +6,7 @@
     "pages/components/talk/talk",
     "pages/components/variety/variety",
     "pages/components/demo1/demo1",
-    "pages/components/demo2/demo2"
+    "pages/components/cart/cart"
   ],
   "window": {
     "backgroundColor": "#E6E6FA",
