@@ -24,14 +24,14 @@
 }
 .type-nav{
 	position: relative;
-	padding:.7rem .3rem;
+	padding:.3rem .3rem;
 	text-align: center;
 	border-bottom: 1px solid #ddd;
 	z-index: 10;
 }
 .type-nav.selected{
-	margin-right:-1px;
-	padding-left:-1px;
+	margin-right:1px;
+	padding-left:1px;
 	color: #333;
 	background-color: #fff;
 }
@@ -52,10 +52,12 @@
 	color: rgb(132, 0, 255);
 	font-size: .75rem;
 }
-.snack .add-btn{
-	width: 3rem;
-	text-align: right;
+.snack .add-btn {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
 }
+
 
 .cart{
 	display: block;
@@ -103,13 +105,13 @@
 }
 
 .checkout-btn {
-	width: 100%;
-	padding: 10px;
-	background-color: #673ab7;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	text-align: center;
-	margin-top: 10px;
-	cursor: pointer;
+  width: 25%;                /* 设置按钮宽度为容器宽度的 25% */
+  padding: 5px 10px;         /* 调整上下内边距为 5px，左右内边距为 10px，这样按钮会显得矮一些 */
+  background-color: #673ab7; /* 设置按钮背景色为紫色 */
+  color: white;              /* 设置按钮文字颜色为白色 */
+  border: none;              /* 移除按钮的边框 */
+  border-radius: 5px;        /* 设置按钮圆角为 5px */
+  text-align: center;        /* 让按钮的文字水平居中 */
+  margin-top: 0px;           /* 设置按钮顶部外边距为 0，确保没有额外的空隙 */
+  cursor: pointer;           /* 设置鼠标悬停时光标为手形，表示按钮可点击 */
 }

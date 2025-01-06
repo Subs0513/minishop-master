@@ -31,7 +31,7 @@
 
 button {
   background-color: #f2f2f2;
-  border: 1px solid #ccc;
+  border: none;
   padding: 5rpx 18rpx;
   margin: 0 10rpx;
   font-size: 28rpx;

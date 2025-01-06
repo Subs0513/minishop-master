@@ -1,7 +1,7 @@
 <view class="container flex-wrap flex-direction-row">
   <!-- left aside -->
   <view class="aside flex-wrap flex-direction-col">
-    <block wx:for="{{navList}}">
+    <block wx:for="{{navList}}" wx:key="id">
       <text 
         class="type-nav {{curNav == item.id ? 'selected' : ''}}" 
         bindtap="selectNav" 
@@ -24,11 +24,13 @@
         <view class="flex-item">
           <text class="title">{{item.name}}</text>
           <p>￥{{item.price}}</p>
+          <p>····················</p>
           <p>库存：{{item.num}}</p>
         </view>
-        <view class="add-btn">
-          <icon type="plus" color="purple" size="30"></icon>
+        <view class="add-btn" bindtap="toggleIcon">
+          <icon type="{{iconType}}" color="purple" size="30"></icon>
         </view>
+
       </view>
     </block>
   </view>
@@ -48,7 +50,7 @@
       </view>
     </block>
   </scroll-view>
-  <button class="checkout-btn" bindtap="goToCartPage">结算</button>
+  <button class="checkout-btn" bindtap="goToCartPage" bindchooseavatar="goToCartPage">结算</button>
 </view>
 
 <!-- loading -->
