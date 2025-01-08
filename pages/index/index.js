@@ -4,9 +4,9 @@ var app = getApp()
 Page({
   data: {
     imgUrls: [
-      'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/115129hraplm5jyirwmffz.jpg',
-      'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/001.jpg',
-      'cloud://test1-3gsvd4o39769272a.7465-test1-3gsvd4o39769272a-1333758115/image/008bKhBGly1he9dscu2znj31hc0u01ad.jpg'
+      '/images/snack1.jpg',
+      '/images/snack2.jpg',
+      '/images/snack3.jpg'
     ],
     indicatorDots: true,
     autoplay: true,

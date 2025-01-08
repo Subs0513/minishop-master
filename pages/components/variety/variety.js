@@ -12,6 +12,7 @@ Page({
         { name: "郭朝阳", price: 9999, num: 1, id: 999 },
         { name: "杜璟钰", price: 9.9, num: 1, id: 888 },
         { name: "张正澍", price: 888, num: 1, id: 777 },
+        { name: "孔令辉", price: 666, num: 1, id: 666 },
       ],
       [
         { name: "巧克力饼干", price: 12.5, num: 100, id: 1 },
